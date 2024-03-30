@@ -241,7 +241,7 @@ if __name__ == '__main__':
 
 #### SIS
 
-![Image = SIS]('./merged_image_SIS.png')
+![Image = SIS](./merged_image_SIS.png)
 
 
 上图是SIS（Susceptible-Infected-Susceptible）模型的模拟结果矩阵。在这种模型中，每个个体在“易感染”(Susceptible)和“感染”(Infected)状态之间转换。感染率（β）决定了易感个体变成感染个体的速率，而治愈率（γ）决定了感染个体恢复到易感状态的速率。
@@ -257,7 +257,7 @@ if __name__ == '__main__':
 
 #### SIR
 
-![Image = SIR]('./merged_image_SIR.png')
+![Image = SIR](./merged_image_SIR.png)
 
 上图是SIR（Susceptible-Infected-Recovered）模型的模拟结果矩阵。与SIS模型不同，SIR模型包括三个状态：易感染(Susceptible)、感染(Infected)、移除(Recovered)。在SIR模型中，个体从易感状态变为感染状态，然后进入移除状态，移除状态的个体不再参与传播过程。感染率(β)仍然表示易感个体变成感染个体的速率，而移除率(γ)则表示感染个体变为移除状态的速率。
 
@@ -272,13 +272,13 @@ if __name__ == '__main__':
 
 ### 传播阻断
 
-![Image = random]('./Images/randomSIS_simulation.png')
+![Image = random](./Images/randomSIS_simulation.png)
 
 
-![Image = targeted]('./Images/targetedSIS_simulation.png')
+![Image = targeted](./Images/targetedSIS_simulation.png)
 
 
-![Image = acquaintance]('./Images/acquaintanceSIS_simulation.png')
+![Image = acquaintance](./Images/acquaintanceSIS_simulation.png)
 
 基于上图结果，比较三种不同的“阻断”策略：随机策略、目标策略和熟人策略。
 
